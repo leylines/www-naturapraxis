@@ -27,7 +27,7 @@ $body .= "#Message: " . $message. ",　";
 
 
   //
-  mail( "spambox@designlab.co", $_POST['subject'], $body, $headers );
+  mail( "info@naturapraxis.ch", $_POST['subject'], $body, $headers );
 
   //			^
   //  Replace with your email

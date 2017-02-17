@@ -135,14 +135,14 @@ body {
     stroke: #660066;
   }
   40% {
-    stroke: #b27cf5;
+    stroke: #990099;
   }
   66% {
-    stroke: #38c695;
+    stroke: #CC00CC;
   }
   80%,
   90% {
-    stroke: #feb960;
+    stroke: #FF00FF;
   }
 }
 
@@ -1300,7 +1300,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   margin-right: 10px;
 }
 .footer .footer-col .social-icons a:hover {
-  color: #fc5f45;
+  color: #FF00FF;
 }
 .footer .footer-logo {
   margin-top: 45px;
