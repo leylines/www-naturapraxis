@@ -40,7 +40,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fefefe;
+    background-color: #FFEEFF;
     z-index: 99999;
     height: 100%;
     width: 100%;
@@ -154,7 +154,7 @@ a {
   text-decoration: none;
   -webkit-transition: all ease 0.25s;
   transition: all ease 0.25s;
-  color: #CC00CC;
+  color: #FFFFFF;
 }
 a:hover {
   text-decoration: none;
@@ -232,7 +232,7 @@ li {
   color: #660066;
 }
 .dark-text2 {
-  color: #616161;
+  color: #CC00CC;
 }
 .white-text {
   color: #ffffff;
@@ -244,10 +244,10 @@ li {
   color: #38c695;
 }
 .purple-text {
-  color: #b27cf5;
+  color: #990099;
 }
-.yellow-text {
-  color: #feb960;
+.pink-text {
+  color: #FF00FF;
 }
 .uppercase {
   text-transform: uppercase;
@@ -967,6 +967,19 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .member-list .single-member .extra-small-text {
   margin-bottom: 12px;
 }
+
+.member-list .description {
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 35px;
+  margin-top: 25px;
+}
+
+.member-list .description p {
+  margin-top: 20px;
+  margin-bottom: 53px;
+}
+
 
 /*---------------------------------------
    2.8 SECTION: WORK STEPS
