@@ -154,11 +154,11 @@ a {
   text-decoration: none;
   -webkit-transition: all ease 0.25s;
   transition: all ease 0.25s;
-  color: #313131;
+  color: #CC00CC;
 }
 a:hover {
   text-decoration: none;
-  color: #660066;
+  color: #FF00FF;
 }
 textarea.input-field:focus,
 textarea.input-field:active,
@@ -229,7 +229,7 @@ li {
    1.4 TEXT / COLORS
 -----------------------------------------*/
 .dark-text {
-  color: #313131;
+  color: #660066;
 }
 .dark-text2 {
   color: #616161;
@@ -635,7 +635,7 @@ section {
   max-height: 26px;
 }
 .sticky-navigation .current a {
-  color: #fc5f45 !important;
+  color: #990099 !important;
 }
 .sticky-navigation .main-navigation li a {
   line-height: 45px;
@@ -645,15 +645,15 @@ section {
 }
 .sticky-navigation .main-navigation li a:hover,
 .sticky-navigation .main-navigation li a:focus {
-  color: #fc5f45;
+  color: #CC00CC;
 }
 
 /*---------------------------------------
    2.2 SECTION: ABOUT US
 -----------------------------------------*/
 .about-us {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 64px;
+  padding-bottom: 75px;
 }
 .about-us .featured-image {
   position: relative;
@@ -691,8 +691,8 @@ section {
 -----------------------------------------*/
 .our-focus {
   position: relative;
-  padding-top: 114px;
-  padding-bottom: 150px;
+  padding-top: 64px;
+  padding-bottom: 75px;
 }
 .focuses .single-focus {
   padding-left: 28px;
@@ -710,42 +710,11 @@ section {
 }
 
 /*---------------------------------------
-   2.4 SECTION: VIDEO
------------------------------------------*/
-.video-play {
-  background: url("../images/backgrounds/2.jpg") top no-repeat;
-  background-size: cover;
-}
-.video-play .color-overlay {
-  padding-top: 120px;
-  padding-bottom: 147px;
-}
-.video-play h3 {
-  margin-bottom: 35px;
-}
-.video-play .embed-responsive {
-  margin-bottom: 50px;
-}
-.video-play .play-button {
-  font-size: 80px;
-  color: #38c695;
-}
-.video-play .play-button:hover,
-.video-play .play-button:focus {
-  color: #17bb82;
-  outline: none;
-  text-decoration: none;
-}
-.video-play .text {
-  margin-top: 15px;
-}
-
-/*---------------------------------------
    2.5 SECTION: PORTFOLIO
 -----------------------------------------*/
 .portfolio {
-  padding-top: 114px;
-  padding-bottom: 137px;
+  padding-top: 64px;
+  padding-bottom: 75px;
 }
 .portfolio .portfolio-items {
   margin-top: 40px;
@@ -972,8 +941,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
    2.6 SECTION: TEAM MEMBER
 -----------------------------------------*/
 .team {
-  padding-top: 114px;
-  padding-bottom: 150px;
+  padding-top: 64px;
+  padding-bottom: 75px;
 }
 .member-list {
   margin-top: 25px;
@@ -1000,36 +969,11 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 /*---------------------------------------
-   2.7 SECTION: STATS
------------------------------------------*/
-.stats {
-  background: url(../images/backgrounds/3.jpg) no-repeat top;
-  background-size: cover;
-}
-.stats .color-overlay {
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
-.stats .stats-icon {
-  font-size: 50px;
-  margin-bottom: 30px;
-}
-.stats .stats-text {
-  color: rgba(255, 255, 255, 0.7);
-  margin-top: 13px;
-  margin-bottom: 30px;
-}
-.stats .bottom-icon {
-  font-size: 20px;
-  margin-bottom: 90px;
-}
-
-/*---------------------------------------
    2.8 SECTION: WORK STEPS
 -----------------------------------------*/
 .work-steps {
-  padding-top: 114px;
-  padding-bottom: 150px;
+  padding-top: 64px;
+  padding-bottom: 75px;
 }
 .steps {
   margin-top: 125px;
@@ -1093,97 +1037,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 /*---------------------------------------
-   2.9 SECTION: PRICING TABLE
------------------------------------------*/
-.pricing {
-  padding-top: 114px;
-  padding-bottom: 150px;
-}
-.price-circle-red {
-  background: #fc5f45;
-  width: 106px;
-  height: 106px;
-  margin: auto;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  box-shadow: 0px 0px 0px 3px #fc5f45;
-}
-.price-circle-red h4 {
-  margin-bottom: 0;
-  margin-top: 23px;
-}
-.price-circle-red .extra-small-text {
-  line-height: 0.6;
-}
-.price-circle-green {
-  background: #38c695;
-  width: 106px;
-  height: 106px;
-  margin: auto;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  box-shadow: 0px 0px 0px 3px #38c695;
-}
-.price-circle-green h4 {
-  margin-bottom: 0;
-  margin-top: 23px;
-}
-.price-circle-green .extra-small-text {
-  line-height: 0.6;
-}
-.price-circle-purple {
-  background: #b27cf5;
-  width: 106px;
-  height: 106px;
-  margin: auto;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  box-shadow: 0px 0px 0px 3px #b27cf5;
-}
-.price-circle-purple h4 {
-  margin-bottom: 0;
-  margin-top: 23px;
-}
-.price-circle-purple .extra-small-text {
-  line-height: 0.6;
-}
-.price-circle-yellow {
-  background: #feb960;
-  width: 106px;
-  height: 106px;
-  margin: auto;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  box-shadow: 0px 0px 0px 3px #feb960;
-}
-.price-circle-yellow h4 {
-  margin-bottom: 0;
-  margin-top: 23px;
-}
-.price-circle-yellow .extra-small-text {
-  line-height: 0.6;
-}
-.packages .single-package {
-  margin-top: 51px;
-  padding-bottom: 12px;
-}
-.packages .single-package h5 {
-  margin-top: 27px;
-  margin-bottom: 22px;
-}
-.packages .single-package .feature-list {
-  margin-top: 38px;
-}
-.packages .single-package .feature-list li {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-.packages .single-package .feature-list li .icon {
-  margin-right: 5px;
-  font-weight: bold;
-}
-
-/*---------------------------------------
    2.10 SECTION: TESTIMONIALS
 -----------------------------------------*/
 .testimonials {
@@ -1191,8 +1044,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   background-size: cover;
 }
 .testimonials .color-overlay {
-  padding-top: 114px;
-  padding-bottom: 140px;
+  padding-top: 64px;
+  padding-bottom: 75px;
 }
 .testimonials .section-number {
   color: #5d5d62;
@@ -1240,7 +1093,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 .testimonials .single-feedback .feedback-content blockquote p {
   font-size: 15px;
-  color: #616161;
+  color: #660066;
 }
 .testimonials .single-feedback .feedback-content blockquote cite {
   margin-top: 30px;
@@ -1282,53 +1135,11 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 /*---------------------------------------
-   2.11 SECTION: FEATURES
------------------------------------------*/
-.features {
-  padding-top: 114px;
-  padding-bottom: 125px;
-}
-.feature-grid {
-  margin-top: 75px;
-}
-.feature-box {
-  margin-bottom: 70px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.feature-box .feature-header {
-  margin-bottom: 26px;
-}
-.feature-box .feature-header h6 {
-  margin-top: -4px;
-}
-.feature-box .feature-header .icon {
-  float: left;
-  font-size: 60px;
-  margin-left: -2.5px;
-  margin-top: -0.5px;
-  margin-right: 5px;
-}
-
-/* CALL TO ACTION */
-.cta-bottom {
-  margin-top: 50px;
-}
-.cta-bottom h4 {
-  display: inline-block;
-  margin-right: 25px;
-  margin-top: 30px;
-}
-.cta-bottom .standard-button {
-  margin-top: 20px;
-}
-
-/*---------------------------------------
    2.12 SECTION: BLOG
 -----------------------------------------*/
 .blog {
-  padding-top: 114px;
-  padding-bottom: 127px;
+  padding-top: 64px;
+  padding-bottom: 75;
 }
 .blog-posts {
   margin-top: 76px;
@@ -1379,8 +1190,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
    2.13 SECTION: SUBSCRIBE FORM
 -----------------------------------------*/
 .subscribe-section {
-  padding-top: 120px;
-  padding-bottom: 125px;
+  padding-top: 64px;
+  padding-bottom: 75px;
 }
 .subscribe-form {
   margin-top: 11px;
@@ -1395,7 +1206,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   line-height: 46px;
 }
 .subscribe-form input.input-box:focus {
-  border: 2px solid #fc5f45;
+  border: 2px solid #660066;
   outline: 0;
   background: #ffffff;
 }
@@ -1414,8 +1225,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
    2.14 SECTION: FOOTER
 -----------------------------------------*/
 .get-in-touch {
-  padding-top: 114px;
-  padding-bottom: 150px;
+  padding-top: 64px;
+  padding-bottom: 50px;
 }
 .success {
   display: none;
