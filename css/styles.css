@@ -1199,6 +1199,18 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   margin-bottom: 23px;
 }
 
+.regular-post a {
+  text-decoration: none;
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+  color: #660066;
+}
+
+.regular-post a:hover {
+  text-decoration: none;
+  color: #990099;
+}
+
 /*---------------------------------------
    2.13 SECTION: SUBSCRIBE FORM
 -----------------------------------------*/
