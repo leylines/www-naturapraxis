@@ -1,3 +1,14 @@
+.regular-post a {
+  text-decoration: none;
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+  color: #660066;
+}
+
+.regular-post a:hover {
+  text-decoration: none;
+  color: #990099;
+}
 
 .table-of-contents {
   float: left;

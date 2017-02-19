@@ -1151,9 +1151,15 @@ figure.effect-zoe:hover p.icon-links a:first-child {
    2.12 SECTION: BLOG
 -----------------------------------------*/
 .blog {
-  padding-top: 64px;
-  padding-bottom: 75;
+  padding-top: 84px;
+  padding-bottom: 25px;
 }
+
+.blog-content {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .blog-posts {
   margin-top: 76px;
 }
@@ -1195,17 +1201,21 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   margin-top: 17px;
 }
 .regular-post {
-  padding: 26px 35px 26px 35px;
+  padding: 46px 35px 46px 35px;
   margin-bottom: 23px;
 }
-
 .regular-post a {
   text-decoration: none;
   -webkit-transition: all ease 0.25s;
   transition: all ease 0.25s;
   color: #660066;
 }
-
+.regular-post ul, ol {
+  padding-left: 50px !important;
+}
+.regular-post li {
+  list-style: disc;
+}
 .regular-post a:hover {
   text-decoration: none;
   color: #990099;
@@ -1297,7 +1307,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   margin-top: 125px;
 }
 .footer .footer-col {
-  padding: 50px 40px 45px 40px;
+  padding: 30px 40px 25px 40px;
   text-align: left;
 }
 .footer .footer-col h6 {
