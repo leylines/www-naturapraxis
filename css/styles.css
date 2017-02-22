@@ -596,6 +596,10 @@ section {
   padding-top: 175px;
   padding-bottom: 125px;
 }
+.home .image-overlay {
+  background: url(../images/icon.svg) no-repeat top;
+  background-size: contain;
+}
 .home .intro {
   margin-top: 62px;
   margin-bottom: 18px;
