@@ -597,8 +597,9 @@ section {
   padding-bottom: 125px;
 }
 .home .image-overlay {
-  background: url(../images/icon.svg) no-repeat top;
+  background: url(../images/icon.svg) no-repeat center;
   background-size: contain;
+  background-origin: content-box;
 }
 .home .intro {
   margin-top: 62px;
